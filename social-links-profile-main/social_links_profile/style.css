@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1b1a1a; /* Cor de fundo do body */
+    color: #f0f0f0; /* Cor do texto padrão */
+  }
+  
+  .div-principal {
+    width: 80%; /* Largura da div principal */
+    max-width: 400px; /* Largura máxima para não ficar muito larga em telas grandes */
+    background-color: #2a2a2a; /* Cor de fundo da div */
+    border-radius: 20px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .cabecalho {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Espaçamento inferior reduzido */
+  }
+  
+  .cabecalho img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    object-fit: cover; /* Garante que a imagem mantenha proporções corretas */
+    margin-bottom: 10px; /* Espaçamento inferior opcional */
+  }
+  
+  .lugar {
+    color: greenyellow; /* Cor específica para o local */
+    margin-bottom: 5px; /* Espaçamento inferior reduzido */
+  }
+  
+  .cabecalho a {
+    margin: 5px 0; /* Reduz o espaçamento entre os parágrafos */
+  }
+  
+  .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os elementos */
+  }
+  
+  .redes-sociais a {
+    margin: 0;
+    padding: 10px;
+    background-color: #585656; /* Cor de fundo dos links */
+    border-radius: 10px; /* Borda arredondada nos links */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none;
+    color: #ffffff
+  }
+  .redes-sociais :hover{
+    background-color: rgb(156, 208, 78);
+  }
